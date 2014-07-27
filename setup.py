@@ -22,7 +22,7 @@ setup(
         "Development Status :: 5 - Production/Stable",
         "Environment :: Web Environment",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: LGPLv3",
+        "License :: OSI Approved :: MIT",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
     ],
