@@ -17,14 +17,14 @@ Advanced motivation
 - Naive solution of permanent softdelete via additionally column(s) and adjusted queries is uncomfortable and has integrity issues. Often leads to unexpected side effects.
 - Raising nonused data over database is dangerous and leads to unexpected problems in future.
 
-Basic solution
+Solution
 ----------------
 
 - Divide and rule
 - first step is softdelete - relatively fast, easy undoable action, side effects are acceptable in short time.
 - second step is partitioning data, softdeleted data are optionally archived and then hard-deleted from original table. It can be implemented as background task.
 
-Advanced solution - proposal
+Proposal
 ------------------
 
 - if there is mechanism to perform delay tasks, it is possible to perform softdelete also delayed without adding another technology
