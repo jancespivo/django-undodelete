@@ -22,7 +22,7 @@ Solution
 
 - Divide and rule
 - first step is softdelete - fast, easy undoable action, side effects are acceptable in short time.
-- second step is partitioning data, softdeleted data are optionally moved and then hard-deleted from original table. It can be implemented as background task.
+- second step is partitioning data, softdeleted data are optionally archived and then hard-deleted from original table. It can be implemented as background task.
 
 
 
